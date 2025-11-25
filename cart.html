@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Cart — Lumeza</title>
+  <meta name="description" content="Your cart - Lumeza">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>:root{--gold:#C9A86A;} body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;} .muted{color:#6b6b6b}</style>
+</head>
+<body class="bg-white text-gray-900">
+  <header class="border-b">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-md bg-gray-100 flex items-center justify-center text-xl font-bold">L</div>
+        <div>
+          <div class="text-lg font-semibold">Lumeza</div>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-12">
+    <h1 class="text-2xl font-bold">Your Cart</h1>
+    <div id="cart-items" class="mt-6"></div>
+    <div class="mt-6 text-right">
+      <div id="cart-total" class="text-xl font-semibold">Total: ₹0</div>
+      <a id="checkout-btn" href="checkout.html" class="mt-4 inline-block px-5 py-3 btn-gold rounded">Proceed to Checkout</a>
+    </div>
+  </main>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
