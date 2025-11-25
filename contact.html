@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact — Lumeza</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>.muted{color:#6b6b6b}</style>
+</head>
+<body class="bg-white text-gray-900">
+  <header class="border-b"><div class="container mx-auto px-6 py-4"><a href="index.html" class="font-bold">Lumeza</a></div></header>
+  <main class="container mx-auto px-6 py-12">
+    <h1 class="text-2xl font-bold">Contact</h1>
+    <p class="mt-4 muted">For inquiries, WhatsApp us directly or use the contact form below.</p>
+
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="font-semibold">WhatsApp</h3>
+        <a class="mt-2 inline-block btn-gold px-4 py-2 rounded" href="https://wa.me/+917983233092" target="_blank">Message +91 79832 33092</a>
+        <h3 class="mt-6 font-semibold">Email</h3>
+        <div class="muted">mail.lumeza@gmail.com</div>
+      </div>
+
+      <div>
+        <form id="contact-form" class="grid grid-cols-1 gap-3">
+          <input name="name" placeholder="Name" class="border rounded px-3 py-2" required/>
+          <input name="email" placeholder="Email" class="border rounded px-3 py-2" required/>
+          <textarea name="message" placeholder="Message" class="border rounded px-3 py-2" rows="4" required></textarea>
+          <button type="submit" class="btn-gold px-4 py-2 rounded">Send</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="js/site.js"></script>
+</body>
+</html>
