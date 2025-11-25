@@ -1,0 +1,80 @@
+[
+  {
+    "id": "wood_spice_box",
+    "title": "Saharanpur Spice Box — Small",
+    "category": "Wood Craft",
+    "price": 1299,
+    "material": "Sheesham wood, natural oil finish",
+    "description": "Hand-carved Sheesham spice box with four compartments. Natural oil finish highlights the grain. Small and compact for modern kitchens.",
+    "images": ["assets/images/wood_spice_box.svg"],
+    "sku": "LZ-WD-001",
+    "inventory": 20,
+    "dimensions": "12cm x 12cm x 6cm",
+    "weight": "350g"
+  },
+  {
+    "id": "metal_trivet",
+    "title": "Moradabad Forged Trivet",
+    "category": "Metal Work",
+    "price": 899,
+    "material": "Brass with matte finish",
+    "description": "Hand-forged brass trivet, corrosion-resistant finish. Minimal geometric design to pair with modern cookware.",
+    "images": ["assets/images/metal_trivet.svg"],
+    "sku": "LZ-MT-001",
+    "inventory": 50,
+    "dimensions": "18cm diameter",
+    "weight": "400g"
+  },
+  {
+    "id": "kitchen_serve_board",
+    "title": "Lumeza Serving Board — Mixed Wood",
+    "category": "Kitchenware",
+    "price": 2499,
+    "material": "Sheesham + Mango wood laminated",
+    "description": "Large serving and chopping board with hand-sanded edges and food-safe oil finish.",
+    "images": ["assets/images/serve_board.svg"],
+    "sku": "LZ-KB-001",
+    "inventory": 15,
+    "dimensions": "45cm x 22cm x 2cm",
+    "weight": "1.2kg"
+  },
+  {
+    "id": "home_decor_vase",
+    "title": "Industrial Metal Vase — Short",
+    "category": "Home Decor",
+    "price": 1799,
+    "material": "Brushed metal (nickel-plated), inner seal",
+    "description": "Low-profile forged metal vase with brushed finish — pairs with dried flowers and modern interiors.",
+    "images": ["assets/images/decor_vase.svg"],
+    "sku": "LZ-DC-001",
+    "inventory": 25,
+    "dimensions": "12cm x 12cm x 18cm",
+    "weight": "800g"
+  },
+  {
+    "id": "accent_side_table",
+    "title": "Minimal Side Table — Wood + Metal",
+    "category": "Furniture",
+    "price": 8999,
+    "material": "Sheesham top, powder-coated steel legs",
+    "description": "Compact side table with solid wood top and slim welded legs — industrial luxe for small spaces.",
+    "images": ["assets/images/side_table.svg"],
+    "sku": "LZ-FR-001",
+    "inventory": 8,
+    "dimensions": "45cm x 35cm x 50cm",
+    "weight": "6.5kg"
+  },
+  {
+    "id": "leather_keychain",
+    "title": "Leather + Brass Keychain",
+    "category": "Accessories",
+    "price": 499,
+    "material": "Vegetable-tanned leather + brass ring",
+    "description": "Hand-stitched leather keychain with brass hardware — a small, thoughtful Lumeza piece.",
+    "images": ["assets/images/keychain.svg"],
+    "sku": "LZ-AC-001",
+    "inventory": 120,
+    "dimensions": "8cm x 2cm",
+    "weight": "50g"
+  }
+]
