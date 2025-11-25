@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title id="page-title">Product — Lumeza</title>
+  <meta name="description" id="meta-desc" content="Lumeza product">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>:root{--gold:#C9A86A;--charcoal:#0F0F0F;--sand:#F4EADF;} body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;} .muted{color:#6b6b6b}</style>
+</head>
+<body class="bg-white text-gray-900">
+  <header class="border-b">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-md bg-gray-100 flex items-center justify-center text-xl font-bold">L</div>
+        <div>
+          <div class="text-lg font-semibold">Lumeza</div>
+          <div class="text-xs muted">Crafted in Wood. Forged in Metal.</div>
+        </div>
+      </a>
+      <nav class="space-x-4 hidden md:flex">
+        <a href="products.html" class="hover:underline">Products</a>
+        <a href="gallery.html" class="hover:underline">Gallery</a>
+        <a href="about.html" class="hover:underline">About</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+      <div class="flex items-center space-x-3">
+        <button id="wishlist-btn-p" class="p-2" title="Wishlist">💛 <span id="wish-count-p" class="text-sm">0</span></button>
+        <a href="cart.html" class="p-2">🛒 <span id="cart-count-p" class="text-sm">0</span></a>
+        <a href="https://wa.me/+917983233092" target="_blank" class="btn-gold px-3 py-2 rounded text-sm">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-12">
+    <div id="product-detail" class="grid md:grid-cols-2 gap-8">
+      <div>
+        <img id="prod-img" src="assets/images/wood_spice_box.svg" alt="product image" class="w-full rounded shadow"/>
+      </div>
+      <div>
+        <h1 id="prod-title" class="text-3xl font-bold">Product Title</h1>
+        <div id="prod-price" class="text-2xl mt-4 font-semibold">₹0</div>
+        <p id="prod-desc" class="mt-4 muted"></p>
+
+        <div class="mt-6 flex items-center space-x-3">
+          <button id="add-to-cart" class="px-4 py-2 btn-gold rounded">Add to Cart</button>
+          <button id="add-wish" class="px-4 py-2 border rounded">Add to Wishlist</button>
+          <a id="wa-buy" class="px-4 py-2 border rounded" target="_blank" href="#">Enquire on WhatsApp</a>
+        </div>
+
+        <div class="mt-8">
+          <h3 class="font-semibold">Details</h3>
+          <ul id="prod-specs" class="mt-2 muted"></ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t mt-12">
+    <div class="container mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center">
+      <div>
+        <div class="font-bold">Lumeza</div>
+        <div class="text-sm muted">Saharanpur & Moradabad, Uttar Pradesh</div>
+      </div>
+      <div class="mt-4 md:mt-0 text-sm muted">© 2025 Lumeza — All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
